@@ -12,7 +12,7 @@ function Intro (){
     return (
         <Container fluid={true}>
             <Row lg={2} sm={1} >
-                <Col className="align-self-center" style={{paddingLeft:"20vh", paddingTop:"35vh"}}>
+                <Col className="align-self-center" style={{paddingLeft:"10vh", paddingRight:"10vh", paddingTop:"35vh"}}>
                     <div>
                         <h3>Hey there! I am</h3>
                         <h1><b>Harsh Nagra.</b></h1>
@@ -20,7 +20,7 @@ function Intro (){
                         <Typist><h4>I am a <b>Software Engineer</b><Typist.Backspace count={17} delay={500}/><b>Undergraduate</b><Typist.Backspace count={13} delay={500}/><b>Creator.</b></h4> </Typist>
                     </div>
                 </Col>
-                <Col className="align-self-center" style={{paddingRight:"20vh", paddingTop:"35vh"}}>
+                <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh", paddingTop:"35vh"}}>
                     <h5>"You don’t have to make yourself miserable to be successful." <br/>
                     <i style={{float: "right"}}> ~ Andrew Wilkinson </i> 
                     </h5>
