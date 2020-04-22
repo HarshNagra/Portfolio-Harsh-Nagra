@@ -1,25 +1,29 @@
-import React from 'react';
+import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ScrollableAnchor from "react-scrollable-anchor";
+import Navigation from "./components/Navigation";
+import Intro from "./components/Intro";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+        {/* <Navigation /> */}
+        <ScrollableAnchor id={"intro"}>
+          <Intro />
+        </ScrollableAnchor>
+        {/* <ScrollableAnchor id={"about"}>
+          <About />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"projects"}>
+          <Projects />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"contacts"}>
+          <Links />
+        </ScrollableAnchor> */}
+      </React.Fragment>
   );
 }
 
