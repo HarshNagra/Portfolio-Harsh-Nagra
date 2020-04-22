@@ -13,17 +13,15 @@ function Intro (){
         <Container fluid={true}>
             <Row lg={2} sm={1} >
                 <Col className="align-self-center" style={{paddingLeft:"10vh", paddingRight:"10vh", paddingTop:"35vh"}}>
-                    <div>
-                        <h3>Hey there! I am</h3>
-                        <h1><b>Harsh Nagra.</b></h1>
-                        <br/><br/>
-                        <Typist><h4>I am a <b>Software Engineer</b><Typist.Backspace count={17} delay={500}/><b>Undergraduate</b><Typist.Backspace count={13} delay={500}/><b>Creator.</b></h4> </Typist>
-                    </div>
+                    <h2>Hey there! I am</h2>
+                    <h1 style={{fontSize:'70px'}}><b>Harsh Nagra.</b></h1>
+                    <br/><br/>
+                    <Typist><h2>I am a <b>Software Engineer</b><Typist.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typist.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typist>
                 </Col>
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh", paddingTop:"35vh"}}>
-                    <h5>"You don’t have to make yourself miserable to be successful." <br/>
+                    <h3>"You don’t have to make yourself miserable to be successful." <br/>
                     <i style={{float: "right"}}> ~ Andrew Wilkinson </i> 
-                    </h5>
+                    </h3>
                 </Col>
             </Row>
             <Row >

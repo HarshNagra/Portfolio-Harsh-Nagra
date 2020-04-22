@@ -4,6 +4,7 @@ import './App.css';
 import ScrollableAnchor from "react-scrollable-anchor";
 import Navigation from "./components/Navigation";
 import Intro from "./components/Intro";
+import Education from "./components/Education";
 
 
 
@@ -13,6 +14,9 @@ function App() {
         {/* <Navigation /> */}
         <ScrollableAnchor id={"intro"}>
           <Intro />
+        </ScrollableAnchor>
+        <ScrollableAnchor id={"intro"}>
+          <Education />
         </ScrollableAnchor>
         {/* <ScrollableAnchor id={"about"}>
           <About />
