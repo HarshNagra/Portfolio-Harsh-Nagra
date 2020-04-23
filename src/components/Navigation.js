@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import "../styles/navigation.css";
+import { configureAnchors } from 'react-scrollable-anchor'
+
+configureAnchors({offset: -60, scrollDuration: 200})
 
 const name = "Harsh Nagra";
 
@@ -10,14 +13,14 @@ const pages = [
         name: "Intro", page: "#intro"
     },
     {
-        name: "About", page: "#about"
+        name: "Education", page: "#education"
     },
     {
         name: "Projects", page: "#projects"
     },
     {
-        name: "Contacts", page: "#contacts"
-    },
+        name: "More", page: "#more"
+    }
 ]
 
 function Navigation() {
@@ -26,7 +29,7 @@ function Navigation() {
             <Navbar variant="dark" expand="lg" fixed="top">
             <Navbar.Brand href="/">{name}</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="basic-navbar-nav" style={{float:'right'}}>
                 <Nav className="mr-auto">
                     { pages.map(item=>(
                         <Nav.Link href={item.page}>

@@ -13,6 +13,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "react-scrollable-anchor": "^0.6.1",
+    "react-scrolling-nav": "^1.1.5",
     "react-typing-animation": "^1.6.2",
     "react-typist": "^2.0.5"
   },

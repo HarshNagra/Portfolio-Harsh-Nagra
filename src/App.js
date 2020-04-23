@@ -1,34 +1,34 @@
 import React, {Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ScrollableAnchor from "react-scrollable-anchor";
 import Navigation from "./components/Navigation";
 import Intro from "./components/Intro";
 import Education from "./components/Education";
+import More from "./components/More";
+import Projects from "./components/Projects.js";
 
 
 
 function App() {
   return (
-    <React.Fragment>
-        {/* <Navigation /> */}
-        <ScrollableAnchor id={"intro"}>
-          <Intro />
-        </ScrollableAnchor>
-        <ScrollableAnchor id={"intro"}>
-          <Education />
-        </ScrollableAnchor>
-        {/* <ScrollableAnchor id={"about"}>
-          <About />
-        </ScrollableAnchor>
-        <ScrollableAnchor id={"projects"}>
-          <Projects />
-        </ScrollableAnchor>
-        <ScrollableAnchor id={"contacts"}>
-          <Links />
-        </ScrollableAnchor> */}
-      </React.Fragment>
+    <div>
+        <Navigation />
+        <div id={'intro'}>
+          <Intro/>
+        </div>
+        <div id={'education'}>
+          <Education/>
+        </div>
+        <div id={'projects'}>
+          <Projects/>
+        </div>
+        <div id={'more'}>
+          <More/>
+        </div>
+      </div>
   );
 }
 
 export default App;
+
+
