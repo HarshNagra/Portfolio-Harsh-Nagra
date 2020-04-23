@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/intro.css";
-import Typist from 'react-typist';
+import Typing from 'react-typing-animation';
 
 const ifStatement = "if (work < leisure):"
 const ifAnswer = "  Work(todo[next_task])"
@@ -19,11 +19,12 @@ function Intro (){
                     <h2>Hey there! I am</h2>
                     <h1 style={{fontSize:'70px'}}><b>Harsh Nagra.</b></h1>
                     <br/><br/>
-                    <Typist><h2>I am a <b>Software Engineer</b><Typist.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typist.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typist>
+                    <Typing speed={20}><h2>I am a <b>Software Engineer</b><Typing.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typing.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typing>
                 </Col>
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh", paddingTop:"35vh"}}>
                     <code style = {{color: "black"}}>
-                        <Typist>
+                        <Typing speed={15}>
+                            <Typing.Delay ms={6000} />
                         todo = [Assignments, Project, Applications, Reply to Emails, ....] <br/>
                         enjoy = [Badminton, Music, Drive, Running, .....]<br/><br/>
                         def routine (work, leisure):<br/>
@@ -33,18 +34,12 @@ function Intro (){
                         &nbsp; &nbsp; &nbsp; &nbsp;{elseAnswer1}<br/>
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{elseAnswer2}<br/>
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{elseAnswer3}
-                        </Typist>
+                        </Typing>
                     </code>
-                
-
-
-                    {/* <h3>"You don’t have to make yourself miserable to be successful." <br/>
-                    <i style={{float: "right"}}> ~ Andrew Wilkinson </i> 
-                    </h3> */}
                 </Col>
             </Row>
             <Row >
-                <Col style={{textAlign:'center', paddingTop: '30vh'}}>
+                <Col style={{textAlign:'center', paddingTop: '30vh', paddingBottom: '30vh'}}>
                     <h6 ><b>Scroll to find out more!</b></h6>
                 </Col>
             </Row>

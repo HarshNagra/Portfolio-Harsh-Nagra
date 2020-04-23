@@ -10,13 +10,11 @@ import HKULogo from '../assets/img/HKULogo.jpg';
 import UofTLogo from '../assets/img/UofTLogo.png';
 
 
-
-
 function Education (){
     return (
         <Container>
             <div style={{paddingTop:'10vh'}}>
-                <h1 style={{fontSize:'80px'}}><b>Education</b></h1>
+            <h1 style={{fontSize:'80px'}}><b>Education</b></h1>
             </div>
             
             <CardDeck style = {{paddingTop:'5vh', paddingBottom:'30vh'}}>
