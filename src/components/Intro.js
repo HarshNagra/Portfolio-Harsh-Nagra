@@ -6,8 +6,11 @@ import Col from "react-bootstrap/Col";
 import "../styles/intro.css";
 import Typist from 'react-typist';
 
-
-
+const ifStatement = "if (work < leisure):"
+const ifAnswer = "  Work(todo[next_task])"
+const elseAnswer1 = "for i in enjoy:"
+const elseAnswer2 = "YouDeserveIt(i)"
+const elseAnswer3 = "break #ok enough"
 function Intro (){
     return (
         <Container fluid={true}>
@@ -19,9 +22,25 @@ function Intro (){
                     <Typist><h2>I am a <b>Software Engineer</b><Typist.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typist.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typist>
                 </Col>
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh", paddingTop:"35vh"}}>
-                    <h3>"You don’t have to make yourself miserable to be successful." <br/>
+                    <code style = {{color: "black"}}>
+                        <Typist>
+                        todo = [Assignments, Project, Applications, Reply to Emails, ....] <br/>
+                        enjoy = [Badminton, Music, Drive, Running, .....]<br/><br/>
+                        def routine (work, leisure):<br/>
+                        &nbsp; &nbsp;{ifStatement}<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp;{ifAnswer}<br/>
+                        &nbsp; &nbsp; else:<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp;{elseAnswer1}<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{elseAnswer2}<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{elseAnswer3}
+                        </Typist>
+                    </code>
+                
+
+
+                    {/* <h3>"You don’t have to make yourself miserable to be successful." <br/>
                     <i style={{float: "right"}}> ~ Andrew Wilkinson </i> 
-                    </h3>
+                    </h3> */}
                 </Col>
             </Row>
             <Row >
