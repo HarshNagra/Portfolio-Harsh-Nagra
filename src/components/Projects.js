@@ -112,7 +112,7 @@ const projs =[
     {
         name: '<b>Theater Blocking</b>',
         subtitle:  'To help theater professionals plan the blocking of their play',
-        text: '<i>Html - JS - CSS - Python FLask - Heroku</i>  ',
+        text: '<i>JS - CSS - Python FLask - Heroku</i>  ',
         buttons: [
             {
                 name: 'Github',

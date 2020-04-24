@@ -11,7 +11,7 @@ function Intro (){
         <Container fluid={true}>
 
             <Row lg={2} sm={1} style={{paddingTop:"30vh", paddingBottom: "25vh"}}>
-                <Col className="align-self-center" style={{paddingLeft:"10vh", paddingRight:"10vh"}}>
+                <Col className="align-self-center" style={{paddingLeft:"10vh", paddingRight:"10vh", paddingTop:'5vh'}}>
                     <h2>Hey there! I am</h2>
                     <h1 style={{fontSize:'70px'}}><b>Harsh Nagra.</b></h1>
                     <br/><br/>
@@ -20,7 +20,7 @@ function Intro (){
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh"}}>
                     <Typing speed={20}>
                         <b>
-                        <Typing.Delay ms={4500} />
+                        <Typing.Delay ms={4700} />
                         <code style={{color: 'black'}}>todo = [Assignments, Project, Applications, Reply to Emails, ....] <br/>
                         enjoy = [Sports, Gym, Music, Drive, ....] <br/><br/></code>
                         <code>def</code><code style={{color: 'black'}}> routine (work, leisure): <br/></code>
