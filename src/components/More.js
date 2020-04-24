@@ -1,6 +1,5 @@
 
-import React, { Component } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
+import React from "react";
 import Container from "react-bootstrap/Container";
 
 
