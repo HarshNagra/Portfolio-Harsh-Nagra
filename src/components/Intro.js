@@ -34,13 +34,13 @@ function Intro (){
                     <h2>Hey there! I am</h2>
                     <h1 style={{fontSize:'70px'}}><b>Harsh Nagra.</b></h1>
                     <br/><br/>
-                    <Typing speed={20}><h2>I am a <b>Software Engineer</b><Typing.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typing.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typing>
+                    <Typing speed={25}><h2>I am a <b>Software Engineer</b><Typing.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typing.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typing>
                 </Col>
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh"}}>
                     
                         <Typing speed={20}>
                             <b>
-                            <Typing.Delay ms={7150} />
+                            <Typing.Delay ms={7250} />
                                 {Parser(opentag)}
                                 {Parser(todo)}
                                 {Parser(enjoy)}
