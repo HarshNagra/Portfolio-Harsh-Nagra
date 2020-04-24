@@ -14,7 +14,7 @@ function Education (){
         <Container>
 
             {/* <h1 style={{fontSize:'65px', paddingTop:'10vh'}}><b>Education</b></h1> <i class="fa fa-graduation-cap"></i> */}
-            <h1 style={{fontSize:'65px', paddingTop:'10vh'}}><b>{dev}</b></h1>
+            <h1 style={{paddingTop:'10vh'}}><b>{dev}</b></h1>
             <CardDeck style={{paddingTop:'5vh', paddingBottom: '5vh'}}>
                 <Card>
                     <Card.Img variant="top" src={SanskritiLogo} height={250} style={{paddingTop: '30px', paddingBottom: '30px', paddingLeft: '85px', paddingRight:'85px'}}/>
@@ -59,7 +59,7 @@ function Education (){
                     </Card.Footer>
                 </Card>
             </CardDeck>
-            <h1 style={{fontSize:'65px', paddingBottom:'10vh'}}><b>{devclose}</b></h1>
+            <h1 style={{ paddingBottom:'10vh'}}><b>{devclose}</b></h1>
         </Container>
     )
 }

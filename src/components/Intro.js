@@ -8,14 +8,13 @@ import Typing from 'react-typing-animation';
 
 function Intro (){
     return (
-        <Container fluid={true}>
-
+        <Container fluid={true}> 
             <Row lg={2} sm={1} style={{paddingTop:"30vh", paddingBottom: "25vh"}}>
                 <Col className="align-self-center" style={{paddingLeft:"10vh", paddingRight:"10vh", paddingTop:'5vh'}}>
                     <h2>Hey there! I am</h2>
                     <h1 style={{fontSize:'70px'}}><b>Harsh Nagra.</b></h1>
                     <br/><br/>
-                    <Typing speed={25}><h2>I am a <b>Software Engineer</b><Typing.Backspace count={19} delay={500}/>an<b> Undergraduate Student</b><Typing.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typing>
+                    <Typing speed={25}><h2>I am a <b>Software Developer</b><Typing.Backspace count={20} delay={500}/>an<b> Undergraduate Student</b><Typing.Backspace count={24} delay={500}/>a <b>Creator.</b></h2> </Typing>
                 </Col>
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh"}}>
                     <Typing speed={20}>
@@ -34,6 +33,7 @@ function Intro (){
                     </Typing>
                 </Col>
             </Row>
+            
         </Container>
     )
 }

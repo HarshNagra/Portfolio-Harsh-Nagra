@@ -5,7 +5,7 @@ import Intro from "./components/Intro";
 import Education from "./components/Education";
 import More from "./components/More";
 import Projects from "./components/Projects.js";
-
+import Footer from "./components/Footer.js";
 
 
 function App() {
@@ -23,6 +23,9 @@ function App() {
         </div>
         <div id={'more'}>
           <More/>
+        </div>
+        <div style={{fixed:'bottom', backgroundColor:'black'}} class="text-center">
+          <Footer/>
         </div>
       </div>
   );
