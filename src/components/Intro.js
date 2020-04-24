@@ -20,7 +20,7 @@ function Intro (){
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh"}}>
                     <Typing speed={20}>
                         <b>
-                        <Typing.Delay ms={6000} />
+                        <Typing.Delay ms={4500} />
                         <code style={{color: 'black'}}>todo = [Assignments, Project, Applications, Reply to Emails, ....] <br/>
                         enjoy = [Sports, Gym, Music, Drive, ....] <br/><br/></code>
                         <code>def</code><code style={{color: 'black'}}> routine (work, leisure): <br/></code>
