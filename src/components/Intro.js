@@ -40,7 +40,7 @@ function Intro (){
                     
                         <Typing speed={25}>
                             <b>
-                            <Typing.Delay ms={7000} />
+                            <Typing.Delay ms={6400} />
                                 {Parser(opentag)}
                                 {Parser(todo)}
                                 {Parser(enjoy)}
