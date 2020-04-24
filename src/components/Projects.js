@@ -125,7 +125,7 @@ const projs =[
 function Projects (){
     return (
         <Container >
-            <h1 style={{fontSize:'65px', paddingTop:'5vh'}}><b>{dev}</b></h1>
+            <h1 style={{fontSize:'65px', paddingTop:'10vh'}}><b>{dev}</b></h1>
                 <CardColumns lg={4}>
                 {projs.map(proj=>(
                     <Card className="p-3" style={{ width: '22.5rem'}} bg={'dark'} text={'light'}>

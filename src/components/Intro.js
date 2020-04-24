@@ -20,12 +20,12 @@ function Intro (){
                 <Col className="align-self-center" style={{paddingRight:"10vh", paddingLeft:"10vh"}}>
                     <Typing speed={20}>
                         <b>
-                        <Typing.Delay ms={4700} />
+                        <Typing.Delay ms={5300} />
                         <code style={{color: 'black'}}>todo = [Assignments, Project, Applications, Reply to Emails, ....] <br/>
                         enjoy = [Sports, Gym, Music, Drive, ....] <br/><br/></code>
                         <code>def</code><code style={{color: 'black'}}> routine (work, leisure): <br/></code>
                         <code>&nbsp; &nbsp; if</code><code style={{color: 'black'}}> (work &lt; leisure): <br/>
-                        &nbsp; &nbsp; &nbsp; &nbsp;Work(todo.next_task()) <br/></code>
+                        &nbsp; &nbsp; &nbsp; &nbsp; Work(todo.next_task()) <br/></code>
                         <code> &nbsp; &nbsp; else</code><code style={{color: 'black'}}>: <br/></code>
                         <code> &nbsp; &nbsp; &nbsp; &nbsp; for</code><code style={{color: 'black'}}> hobby </code><code>in</code><code style={{color: 'black'}}>  enjoy:<br/>
                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; YouDeserveIt(hobby) <br/> </code>
