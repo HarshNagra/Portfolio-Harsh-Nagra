@@ -51,7 +51,6 @@ function Education (){
                     <Card.Text>
                         <b>Level:</b> Undergraduate - Exchange Semester<br/>
                         <b>Major</b>: Computer Science <br/>
-                        <b>CGPA</b>: Not Applicable
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
