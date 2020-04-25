@@ -8,7 +8,7 @@ import Typing from 'react-typing-animation';
 
 function Intro (){
     return (
-        <Container fluid={true}> 
+        <Container fluid={true} style={{paddingBottom:'5vh'}}> 
             <Row lg={2} sm={1} style={{paddingTop:"30vh", paddingBottom: "25vh"}}>
                 <Col className="align-self-center" style={{paddingLeft:"10vh", paddingRight:"10vh", paddingTop:'5vh'}}>
                     <h2>Hey there! I am</h2>

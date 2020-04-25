@@ -15,7 +15,7 @@ function App() {
         <div id={'intro'}>
           <Intro/>
         </div>
-        <div id={'education'}>
+        <div style={{backgroundColor:'black'}} id={'education'}>
           <Education/>
         </div>
         <div id={'projects'}>

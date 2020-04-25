@@ -75,6 +75,21 @@ const projs =[
     {
         category: [
             'all',
+            'softdev'
+        ],
+        name: '<b>Webmain-System</b>',
+        subtitle: 'Full stack application to view, transfer and compose emails.',
+        text: '<i>MongoDB-ExpressJS-JS-NodeJS</i> ',
+        buttons: [
+            {
+                name: 'Github',
+                href: 'https://github.com/HarshNagra/Webmail-System'
+            }
+        ]
+    },
+    {
+        category: [
+            'all',
             'AI',
             'favorite'
         ],
@@ -85,21 +100,6 @@ const projs =[
             {
                 name: 'Github',
                 href: 'https://github.com/HarshNagra/Artificial-Intelligence'
-            }
-        ]
-    },
-    {
-        category: [
-            'all',
-            'softdev'
-        ],
-        name: '<b>Webmain-System</b>',
-        subtitle: 'Full stack application to view, transfer and compose emails.',
-        text: '<i>MongoDB-ExpressJS-JS-NodeJS</i> ',
-        buttons: [
-            {
-                name: 'Github',
-                href: 'https://github.com/HarshNagra/Webmail-System'
             }
         ]
     },
