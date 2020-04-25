@@ -170,22 +170,6 @@ const projs =[
     {
         category: [
             'all',
-            'softdev',
-            'favorite'
-        ],
-        name: '<b>Theater Blocking</b>',
-        subtitle:  'To help theater professionals plan the blocking of their play',
-        text: '<i>JS - CSS - Python FLask - Heroku</i>  ',
-        buttons: [
-            {
-                name: 'Github',
-                href: 'https://github.com/HarshNagra/theater-blocking'
-            }
-        ]
-    },
-    {
-        category: [
-            'all',
             'softdev'
         ],
         name: '<b>Pizza Delivery API</b>',
