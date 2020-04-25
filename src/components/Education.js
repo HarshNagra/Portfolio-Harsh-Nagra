@@ -8,6 +8,7 @@ import HKULogo from '../assets/img/HKULogo.jpg';
 import UofTLogo from '../assets/img/UofTLogo.png';
 import Accordion from 'react-bootstrap/Accordion';
 import Parser from 'html-react-parser';
+import Button from 'react-bootstrap/Button'
 
 const dev = "<education>"
 const devclose = "</education>"
@@ -114,10 +115,10 @@ function Education (){
             </CardDeck>
             </Row>
             <Row style={{display: 'flex', justifyContent: 'center'}}>
-                <Accordion style={{width:'40%'}}  >
+                <Accordion style={{width:'40%'}} >
                     <Card className='w-100' bg={'light'}>
-                        <Accordion.Toggle  style={{textAlign:'center'}} as={Card.Header} eventKey="0">
-                            <b><u>Courses</u></b>
+                        <Accordion.Toggle   style={{textAlign:'center'}} as={Card.Header} eventKey="0">
+                            <Button variant="outline-dark"><b><u>Courses</u></b></Button>
                         </Accordion.Toggle>
                         <Accordion.Collapse eventKey="0">
                         <Card.Body>
@@ -125,7 +126,9 @@ function Education (){
                                 <Accordion  defaultActiveKey="1" style={{padding:'4px'}}>
                                     <Card className='w-100' bg={'dark'} text={'light'}>
                                         <Accordion.Toggle  style={{textAlign:'center'}} as={Card.Header} eventKey="0">
-                                            <b>{current.level}</b>
+                                            <Button variant="outline-light">
+                                                <b>{current.level}</b>
+                                                </Button>
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="0">
                                         <Card.Body>
