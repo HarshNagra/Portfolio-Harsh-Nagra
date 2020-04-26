@@ -6,6 +6,7 @@ import Education from "./components/Education";
 import More from "./components/More";
 import Projects from "./components/Projects.js";
 import Footer from "./components/Footer.js";
+import WorkExperience from './components/WorkExperience';
 
 
 function App() {
@@ -21,12 +22,17 @@ function App() {
         <div id={'projects'}>
           <Projects/>
         </div>
+        <div id={'workexperience'} style={{backgroundColor:'black'}}>
+          <WorkExperience/>
+        </div>
         <div id={'more'}>
           <More/>
         </div>
-        <div style={{fixed:'bottom', backgroundColor:'black'}} class="text-center">
+        {/* Do not remove the FOOTER.  */}
+        <div style={{fixed:'bottom', backgroundColor:'black', paddingBottom:'20px'}} class="text-center">
           <Footer/>
         </div>
+        {/* Do not remove the FOOTER.  */}
       </div>
   );
 }

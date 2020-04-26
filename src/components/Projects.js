@@ -221,7 +221,7 @@ function Projects (){
                 </CardColumns>
             </Row>
             <Row>
-                <h1 ><b>{devclose}</b></h1>
+                <h1 style={{ paddingBottom:'10vh'}}><b>{devclose}</b></h1>
             </Row>
             
         </Container>

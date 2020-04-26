@@ -19,6 +19,9 @@ const pages = [
         name: "Projects", page: "#projects"
     },
     {
+        name: "Work Experience", page: "#workexperience"
+    },
+    {
         name: "More", page: "#more"
     }
 ]

@@ -148,7 +148,7 @@ function Education (){
                 </Accordion>
             </Row>
             <Row>
-                <h1 style={{ paddingBottom:'17.5vh',  color: 'white'}}><b>{devclose}</b></h1>
+                <h1 style={{paddingTop:'5vh', paddingBottom:'12.5vh',  color: 'white'}}><b>{devclose}</b></h1>
             </Row>
         </Container>
     )
