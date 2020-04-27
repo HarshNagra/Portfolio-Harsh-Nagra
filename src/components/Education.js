@@ -124,11 +124,11 @@ function Education (){
                         <Card.Body>
                             {courses.map(current=>(
                                 <Accordion  defaultActiveKey="1" style={{padding:'4px'}}>
-                                    <Card className='w-100' bg={'dark'} text={'light'}>
+                                    <Card className='w-100' bg={'light'} text={'dark'}>
                                         <Accordion.Toggle  style={{textAlign:'center'}} as={Card.Header} eventKey="0">
-                                            <Button variant="outline-light">
+                                            <Button variant="outline-dark">
                                                 <b>{current.level}</b>
-                                                </Button>
+                                            </Button>
                                         </Accordion.Toggle>
                                         <Accordion.Collapse eventKey="0">
                                         <Card.Body>

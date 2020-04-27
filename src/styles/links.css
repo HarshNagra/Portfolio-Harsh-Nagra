@@ -1,0 +1,13 @@
+  
+.links {
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  .links i {
+    color: lightsteelblue;
+  }
+  
+  .links i:hover {
+    color: white;
+  }

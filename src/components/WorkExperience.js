@@ -66,7 +66,7 @@ function WorkExperience (){
     return (
         <Container>
             <Row>
-                <h1 style={{ paddingTop:'10vh',color:'white'}}>{dev}</h1>
+                <h1 style={{ paddingTop:'10vh',color:'white'}}><b>{dev}</b></h1>
             </Row>
             <Row lg={1} >
                 {internships.map(current=>(
@@ -105,7 +105,7 @@ function WorkExperience (){
                 ))}
             </Row>
             <Row>
-                <h1 style={{paddingBottom:'17.5vh',color:'white'}}>{devclose}</h1>
+                <h1 style={{paddingBottom:'17.5vh',color:'white'}}><b>{devclose}</b></h1>
             </Row>
             
         </Container>

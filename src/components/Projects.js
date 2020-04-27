@@ -19,7 +19,7 @@ const projs =[
             'favorite'
         ],
         name: '<b>Portfolio</b>',
-        subtitle: 'I am in front of you! Literally.',
+        subtitle: 'I am in front of you! Literally. This whole application was built from scratch.',
         text: '<i>ReactJS - Bootstrap - Netlify</i> ',
         buttons: [
             {
