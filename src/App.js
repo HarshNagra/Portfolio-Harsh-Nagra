@@ -29,7 +29,7 @@ function App() {
           <More/>
         </div>
         {/* Do not remove the FOOTER.  */}
-        <div style={{fixed:'bottom', backgroundColor:'black', paddingBottom:'20px'}} class="text-center">
+        <div id={'footer'} style={{fixed:'bottom', backgroundColor:'black', paddingBottom:'20px'}} class="text-center">
           <Footer/>
         </div>
         {/* Do not remove the FOOTER.  */}

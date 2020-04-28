@@ -10,9 +10,6 @@ const name = "Harsh Nagra";
 
 const pages = [
     {
-        name: "Intro", page: "#intro"
-    },
-    {
         name: "Education", page: "#education"
     },
     {
@@ -23,6 +20,9 @@ const pages = [
     },
     {
         name: "More", page: "#more"
+    },
+    {
+        name: "Contact Me", page: "#footer"
     }
 ]
 
