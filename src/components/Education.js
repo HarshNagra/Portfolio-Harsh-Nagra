@@ -27,7 +27,7 @@ const courses = [
         courses: ['Discrete Mathematics',
         'Programming Technologies and Tools',
         'Introduction to Data Structures and Algorithms',
-        'Computer Oragnization',
+        'Computer Organization',
         'Object Oriented Programming and Java'
         ]
     },

@@ -20,7 +20,7 @@ const projs =[
         ],
         name: '<b>Portfolio</b>',
         subtitle: 'I am in front of you! Literally. This whole application was built from scratch.',
-        text: '<i>ReactJS - Bootstrap - Netlify</i> ',
+        text: '<i>ReactJS-Bootstrap-Netlify</i> ',
         buttons: [
             {
                 name: 'View Me',
@@ -39,8 +39,8 @@ const projs =[
             'favorite'
         ],
         name: '<b>Visor App </b>',
-        subtitle: 'To replace the visor card used by the deaf people.',
-        text: ' <i>PWA - ReactJS - Material UI - Netlify</i>',
+        subtitle: 'To replace the visor card used by deaf people.',
+        text: ' <i>PWA-ReactJS-Material UI-Netlify</i>',
         buttons: [
             {
                 name: 'View Me',
@@ -63,7 +63,7 @@ const projs =[
             'favorite'
         ],
         name: '<b>iAlbums</b>',
-        subtitle: 'Full stack application with login to view your and your freinds images.',
+        subtitle: 'Full stack application with login to view your and your friends images.',
         text: '<i>MongoDB-ExpressJS-ReactJS-NodeJS</i> ',
         buttons: [
             {
@@ -159,7 +159,7 @@ const projs =[
         ],
         name: '<b>Theater Blocking</b>',
         subtitle:  'To help theater professionals plan the blocking of their play',
-        text: '<i>JS - CSS - Python FLask - Heroku</i>  ',
+        text: '<i>JS-CSS-Python FLask-Heroku</i>  ',
         buttons: [
             {
                 name: 'Github',
@@ -174,7 +174,7 @@ const projs =[
         ],
         name: '<b>Pizza Delivery API</b>',
         subtitle:  'To view the menu, place an order & schedule delivery of a Pizza shop',
-        text: '<i>Python FLask - Heroku</i>  ',
+        text: '<i>Python FLask-Heroku</i>  ',
         buttons: [
             {
                 name: 'Github',
