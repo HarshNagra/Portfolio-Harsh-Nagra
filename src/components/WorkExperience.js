@@ -20,7 +20,7 @@ const devclose = "</experience>"
 const internships = [
     {
         company: JPM,
-        position: 'Incoming Software Engineering Intern',
+        position: 'Upcoming Software Engineering Intern',
         duration: 'June 2020 - August 2020',
         location: 'Central, Hong Kong',
         roles: [

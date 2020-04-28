@@ -19,7 +19,7 @@ const projs =[
             'favorite'
         ],
         name: '<b>Portfolio</b>',
-        subtitle: 'I am in front of you! Literally. This whole application was built from scratch.',
+        subtitle: 'I am in front of you! This whole application was built from scratch.',
         text: '<i>ReactJS-Bootstrap-Netlify</i> ',
         buttons: [
             {
@@ -159,7 +159,7 @@ const projs =[
         ],
         name: '<b>Theater Blocking</b>',
         subtitle:  'To help theater professionals plan the blocking of their play',
-        text: '<i>JS-CSS-Python FLask-Heroku</i>  ',
+        text: '<i>JS-CSS-Python Flask-Heroku</i>  ',
         buttons: [
             {
                 name: 'Github',
@@ -174,7 +174,7 @@ const projs =[
         ],
         name: '<b>Pizza Delivery API</b>',
         subtitle:  'To view the menu, place an order & schedule delivery of a Pizza shop',
-        text: '<i>Python FLask-Heroku</i>  ',
+        text: '<i>Python Flask-Heroku</i>  ',
         buttons: [
             {
                 name: 'Github',
