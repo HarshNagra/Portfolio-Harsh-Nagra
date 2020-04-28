@@ -141,6 +141,9 @@ function More (){
                                         <Form.Label>Message</Form.Label>
                                         <Form.Control type="message" placeholder="Message" />
                                         </Form.Group>
+                                        <Button variant="primary" type="submit">
+                                            Submit
+                                        </Button>
                                     </Form>
                                     // <div>
                                     // <input type='text' name='Name' label="name"required />
