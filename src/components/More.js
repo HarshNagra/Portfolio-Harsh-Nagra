@@ -3,12 +3,6 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Carousel from 'react-bootstrap/Carousel';
 import Parser from 'html-react-parser';
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Row from "react-bootstrap/Row";
-import Form from 'react-bootstrap/Form';
-import NetlifyForm from 'react-netlify-form';
 
 import img1 from '../assets/more/1.jpg';
 import img2 from '../assets/more/2.jpg';
@@ -105,60 +99,7 @@ function More (){
             </Carousel>
             </div>
             </div>
-            <Row style={{display: 'flex', justifyContent: 'center', padding:'15px'}}>
-                <Accordion  defaultActiveKey="1" style={{width:'40%'}}>
-                    <Card className='w-100' bg={'light'} text={'dark'}>
-                        <Accordion.Toggle  style={{textAlign:'center'}} as={Card.Header} eventKey="0">
-                            <Button variant="outline-dark">
-                                <b>Contact Me!</b>
-                            </Button>
-                        </Accordion.Toggle>
-                        <Accordion.Collapse eventKey="0">
-                        <Card.Body style={{textAlign:'left'}}>
-                        <NetlifyForm name='Contact Form'>
-                            {({ loading, error, success }) => (
-                                <div>
-                                {loading &&
-                                    <div>Loading...</div>
-                                }
-                                {error &&
-                                    <div>Your information was not sent. Please try again later.</div>
-                                }
-                                {success &&
-                                    <div>Thank you for contacting us!</div>
-                                }
-                                {!loading && !success &&
-                                    <Form>
-                                        <Form.Group controlId="formGroupEmail">
-                                        <Form.Label>Email address</Form.Label>
-                                        <Form.Control type="email" placeholder="Enter email" />
-                                        </Form.Group>
-                                        <Form.Group controlId="formGroupPassword">
-                                        <Form.Label>Password</Form.Label>
-                                        <Form.Control type="name" placeholder="Name" />
-                                        </Form.Group>
-                                        <Form.Group controlId="formGroupMessage">
-                                        <Form.Label>Message</Form.Label>
-                                        <Form.Control type="message" placeholder="Message" />
-                                        </Form.Group>
-                                        <Button variant="primary" type="submit">
-                                            Submit
-                                        </Button>
-                                    </Form>
-                                    // <div>
-                                    // <input type='text' name='Name' label="name"required />
-                                    // <textarea name='Message' required />
-                                    // <button>Submit</button>
-                                    // </div>
-                                }
-                                </div>
-                            )}
-                        </NetlifyForm>
-                        </Card.Body>
-                        </Accordion.Collapse>
-                    </Card>
-                </Accordion>
-            </Row>
+
         </Container>
     )
 }
