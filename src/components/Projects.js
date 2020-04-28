@@ -186,7 +186,7 @@ const projs =[
 ]
 
 function Projects (){
-    const [cat, setCat] = useState('favorite');
+    const [cat, setCat] = useState('all');
     return (
         <Container >
             <Row>
@@ -194,8 +194,8 @@ function Projects (){
             </Row>
             <Row style={{display: 'flex', justifyContent: 'center', padding:'20px'}}>
                 <ButtonGroup aria-label="Basic example">
-                    <Button variant="dark" onClick={() => setCat('favorite')}>&#9734; My Favourites</Button>
                     <Button variant="dark" onClick={() => setCat('all')}>All</Button>
+                    <Button variant="dark" onClick={() => setCat('favorite')}>&#9734; My Favourites</Button>
                     <Button variant="dark" onClick={() => setCat('softdev')}>Soft Dev</Button>
                     <Button variant="dark" onClick={() => setCat('AI')}>Artificial Intelligence</Button>
                     <Button variant="dark" onClick={() => setCat('games')}>Games</Button>
