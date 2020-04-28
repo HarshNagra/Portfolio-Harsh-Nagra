@@ -51,7 +51,7 @@ const images = [
     },
     {
         src: img8,
-        firstlabel: 'Angkor Wat , Combodia',
+        firstlabel: 'Angkor Wat , Cambodia',
         secondlabel: 'One of the most beautiful historical sites I have even seen.'
     }
 
