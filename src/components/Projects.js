@@ -20,11 +20,11 @@ const projs =[
         ],
         name: '<b>Todo App - Full Stack</b>',
         subtitle: 'This application let\'s the user login using Jwt and spring security to create, save and update their todos',
-        text: '<i>Spring Boot JWT-H2 JPA-ReactJS-Material UI</i> ',
+        text: '<i>PWA-Spring Boot JWT-H2 JPA-ReactJS-Material UI</i> ',
         buttons: [
             {
                 name: 'Video',
-                href: ''
+                href: 'https://drive.google.com/file/d/1aUtitzqu06ibs0KCbH_zC9fJhmOFHEN4/view?usp=sharing'
             },
             {
                 name: 'Github',
