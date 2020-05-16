@@ -18,6 +18,26 @@ const projs =[
             'softdev',
             'favorite'
         ],
+        name: '<b>Todo App - Full Stack</b>',
+        subtitle: 'This application let\'s the user login using Jwt and spring security to create, save and update their todos',
+        text: '<i>Spring Boot JWT-H2 JPA-ReactJS-Material UI</i> ',
+        buttons: [
+            {
+                name: 'Video',
+                href: ''
+            },
+            {
+                name: 'Github',
+                href: 'https://github.com/HarshNagra/todo-app-springboot-react'
+            }
+        ]
+    },
+    {
+        category: [
+            'all',
+            'softdev',
+            'favorite'
+        ],
         name: '<b>Portfolio</b>',
         subtitle: 'I am in front of you! This whole application was built from scratch.',
         text: '<i>ReactJS-Bootstrap-Netlify</i> ',
