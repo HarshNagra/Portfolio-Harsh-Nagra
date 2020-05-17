@@ -1,7 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [PORTFOLIO - CLick Here](https://harshnagra.netlify.app/)
 
+
+This project is subject to Copyrights.
 ## Available Scripts
 
 In the project directory, you can run:
