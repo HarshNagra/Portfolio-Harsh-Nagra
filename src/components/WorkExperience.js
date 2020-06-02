@@ -1,8 +1,6 @@
-
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import "../styles/workexperience.css";
 import Bosch from "../assets/img/Bosch.png";
 import JPM from "../assets/img/JPMorgan.png";
@@ -68,10 +66,10 @@ function WorkExperience (){
             <Row>
                 <h1 style={{ paddingTop:'10vh',color:'white'}}><b>{dev}</b></h1>
             </Row>
-            <Row lg={1} >
+            <Row  lg={1} >
                 {internships.map(current=>(
                     <Row  style={{display: 'flex', justifyContent: 'center', padding:'2vh'}}>
-                        <Card style={{width:'45%'}}>
+                        <Card style={{minWidth: '50vh'}}>
                             <div style={{display: 'flex', justifyContent: 'center'}}>
                                 <div style={{width:current.width}}>
                                     <Card.Img style={{padding: '10px'}}  height={100} variant="bottom" src={current.company} />

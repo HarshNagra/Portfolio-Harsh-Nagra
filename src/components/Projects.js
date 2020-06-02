@@ -237,7 +237,9 @@ function Projects (){
                             ))}
                         </Card.Body>
                     </Card>
-                })}
+                    else 
+                    return null
+                }) }
                 </CardColumns>
             </Row>
             <Row>
